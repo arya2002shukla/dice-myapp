@@ -43,6 +43,7 @@ class _DicepageState extends State<Dicepage> {
                   changediceface();
 
                 },
+                                  
                     child: Image.asset("images/dice$leftdicenumber.png"),
                 )
             ),
@@ -51,6 +52,7 @@ class _DicepageState extends State<Dicepage> {
                 child: FlatButton(onPressed:(){
                   changediceface();
                 },
+                                  
                     child: Image.asset("images/dice$rightdicenumber.png"))
             ),
           ],
